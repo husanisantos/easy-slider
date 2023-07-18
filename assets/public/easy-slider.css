@@ -1,0 +1,45 @@
+.easy-slide.owl-carousel .owl-nav button.owl-prev,
+.easy-slide.owl-carousel .owl-nav button.owl-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(204, 204, 204, 0.35);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.easy-slide .owl-nav button span {
+    font-size: 60px;
+    height: 100%;
+    display: block;
+    width: 100%;
+    line-height: 20px;
+}
+
+.easy-slide.owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+.easy-slide.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.easy-slide.owl-carousel .owl-nav {
+    margin: 0;
+}
+
+.easy-slide.owl-theme .owl-nav .disabled,
+button.disabled {
+    opacity: 0.6;
+}
+
+.easy-slide.owl-theme .owl-dots {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
